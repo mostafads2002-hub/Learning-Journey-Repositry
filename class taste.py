@@ -26,6 +26,11 @@ def ask_action():
     action=input("enter your choice:")
     return action
 def search_by():
+    print("1.membership id:\n2.first name:\n3.membership status:")
+    ask_by=input("enter your choice:")
+    return ask_by
+
+
     
 
 
